@@ -1,4 +1,10 @@
+class Convinience_store:
+    store= " "
+    def enter_store(self, store):
+        print(f"Customer entered the {store}")
+
 class Person:
+
     def __init__(self,name):
         self.name=name
 class Wallet:
@@ -20,3 +26,6 @@ class Shelf:
 
 if __name__=='__main__':
     basket=Basket("mediuim")
+
+cs= Convinience_store()
+cs.enter_store("eleven-seven")
